@@ -1,0 +1,62 @@
+/* Cài đặt chung cho toàn bộ trang */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Khung chứa nội dung chính */
+.profile-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #7f8c8d;
+    font-size: 0.9em;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #eee;
+    margin: 20px 0;
+}
+
+.info {
+    text-align: left;
+    line-height: 1.6;
+    color: #34495e;
+}
+
+h3 {
+    margin-top: 20px;
+    color: #2980b9;
+}
+
+.hobbies {
+    text-align: left;
+    list-style: none;
+    padding: 0;
+}
+
+.hobbies li {
+    background: #f9f9f9;
+    margin: 5px 0;
+    padding: 8px 12px;
+    border-radius: 5px;
+    border-left: 4px solid #2980b9;
+}
